@@ -14,6 +14,7 @@ SET(LIST_OF_RULES
     MultipleUnaryOperator
     ReturnFromFinallyBlock
     ThrowExceptionFromFinallyBlock
+    TodoComment
     )
 
 BUILD_DYNAMIC_RULES("${LIST_OF_RULES}")
