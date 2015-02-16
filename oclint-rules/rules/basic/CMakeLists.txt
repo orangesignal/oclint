@@ -15,6 +15,9 @@ SET(LIST_OF_RULES
     ReturnFromFinallyBlock
     ThrowExceptionFromFinallyBlock
     TodoComment
+    FixmeComment
+    XxxComment
+    NoSonarComment
     )
 
 BUILD_DYNAMIC_RULES("${LIST_OF_RULES}")
